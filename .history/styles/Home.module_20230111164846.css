@@ -43,13 +43,14 @@
 
 .description {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   font-size: 0.85rem;
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  gap: 50px;
 }
 
 .description a {
@@ -76,7 +77,6 @@
   width: var(--max-width);
   max-width: 100%;
   align-items: center;
-  text-align: center;
 }
 .card {
   padding: 1rem 1.2rem;

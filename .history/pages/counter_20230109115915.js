@@ -34,7 +34,7 @@ export default function Counter() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Counter Page ~&nbsp;
+            COUNTER PAGE&nbsp;
             <code className={styles.code}>Welcome {isUser} </code>
           </p>
           <div>
@@ -83,8 +83,8 @@ export default function Counter() {
             <p className={inter.className}>
             {number}
             </p>
-            <button className={styles.button} onClick={() => setNumber(number + 1)}>Increment</button>
-            <button className={styles.button} onClick={() => setNumber(number - 1)}>Decrement</button>
+            <button onClick={() => setNumber(number + 1)}>Increment</button>
+            <button onClick={() => setNumber(number - 1)}>Decrement</button>
         </div>
       </main>
     </>

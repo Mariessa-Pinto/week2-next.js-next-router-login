@@ -43,9 +43,6 @@
   --dark-gray: rgb(75, 75, 75);
   --gray: rgb(150, 150, 150);
   --violet: #7184D9;
-  --gold: #A3893C;
-  --tan: #EDDFBD;
-  --black: #000000;
 }
 
 @media (prefers-color-scheme: dark) {

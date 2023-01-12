@@ -38,14 +38,6 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
-
-  --dark-red: darkred;
-  --dark-gray: rgb(75, 75, 75);
-  --gray: rgb(150, 150, 150);
-  --violet: #7184D9;
-  --gold: #A3893C;
-  --tan: #EDDFBD;
-  --black: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -78,6 +70,8 @@
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
+
+    --dark-red: darkred;
   }
 }
 
@@ -85,6 +79,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  border-color: rgb(var(--dark-red));
 }
 
 html,

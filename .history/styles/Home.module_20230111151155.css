@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  gap: 50px;
+  font-family: var(--font-mono);
+  background: var(--violet);
+}
+
+.button {
+  border: 2px solid var(--gray);
+  padding: 5px 70px;
+  border-radius: 5px;
+  background-color: var(--gold);
+}
+
+.button:hover {
+  background-color: var(--tan);
+  border: 2px solid var(--dark-gray);
+  color: var(--black);
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 4px;
+  border: 3px solid var(--dark-gray);
+  background: var(--gold);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
